@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CCE10A38-9005-2E4B-92F0-D4EFAB779648" containerWithKeyObject="C60F95A8-9779-C86B-CE70-8237132D3083" localFKIndex="1BB4F9C9-9D79-C0F7-EB20-C5365DBBC0EA" name="T_EVOLUCAO_PRESSAO_FK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>C20260B6-3FA6-F667-1DAA-D55326478ECF</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<referredTableLongName>T_HT_PRESSAO_ARTERIAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>74DE6EE0-2374-C7DC-4FB2-4444AAB4AECE</referredTableID>
+<keyObject>7ED603D6-6964-A892-5C7E-794F9774645F</keyObject>
+<referredKeyID>7ED603D6-6964-A892-5C7E-794F9774645F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_pressao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

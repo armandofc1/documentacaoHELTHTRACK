@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCD60E87-C075-270A-78E1-D032E7FAF449" name="T_HT_PRESSAO_ARTERIAL">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>EBD7E9F5-A0A9-79D5-3F7D-1834F71F358A</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_pressao" id="7FFEE9B7-EED0-39DB-5B98-C20260E1DDA1">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>731F03D2-7A84-56B7-35E4-77E1DD971935</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_usuario" id="B94873AA-E05A-9C40-5254-2CFC1B3D8788">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>8F4B3A0F-FC4B-21D5-5A34-977761FDA1B1</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A6AEDEB9-FE4F-1CD7-A033-C4FB05CBE2D5" referredColumn="FFD8DEE1-BF6C-F6F2-DE7C-10A53B8EEA1A"/>
+</associations>
+</Column>
+<Column name="vl_pressao_sistolica" id="8CE59E33-17DD-C396-CDF4-2E2AA65B9F3C">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>166AC778-5BB6-2A86-6510-43AA471DFB8D</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_pressao_diastolica" id="E12A89E1-55FC-FA1D-F1F8-C8B95346373F">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>7DE87C98-C8E8-F2CF-2B93-19E748C8A866</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,4,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_medicao" id="D344E086-6510-C013-F728-820AE4521259">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>5C15C307-6BA9-FD8A-2BE9-8AC7A252E25E</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="387B16BB-079A-9704-C9CF-4778B221A37D" name="T_HT_PRESSAO_ARTERIAL_PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>CC7AF60B-C96C-6C94-7434-72D7A956A33D</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FFEE9B7-EED0-39DB-5B98-C20260E1DDA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB00EF88-C1DE-4031-696F-6D4D6CF0BCF6" name="Relation_19">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>67881121-1866-185F-5394-F5531D91D4D8</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B94873AA-E05A-9C40-5254-2CFC1B3D8788"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

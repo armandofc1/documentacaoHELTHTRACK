@@ -1,0 +1,4 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="0E7D92A8-4705-265C-EF1A-138F5346FE6B" name="ModeloFisico" visible="true"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

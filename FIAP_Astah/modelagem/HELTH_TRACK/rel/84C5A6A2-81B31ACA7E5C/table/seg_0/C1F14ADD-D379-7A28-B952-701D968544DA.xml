@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C1F14ADD-D379-7A28-B952-701D968544DA" name="T_HT_TIPO_TELEFONE">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>2A67B00D-0F72-561E-849C-1F63173E5993</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_telefone" id="4EB2B4C6-238F-DF6C-D564-1CEBA5F309DD">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>BA66411D-9ADB-43E5-A3FA-92A3C3D85FC6</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_tipo_telefone" id="7AC350C9-1CF3-3C94-62FE-7DAFF4C035CA">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>630712C3-1561-A8C7-5855-74D5AF122A78</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_HT_TIPO_TELEFONE_ID" id="07F61067-6D5C-B091-3754-13B27B71ADE2">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1A24D37F-B6BC-8F7F-023B-C0A1F38E410C" name="T_HT_TIPO_TELEFONE_PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="07F61067-6D5C-B091-3754-13B27B71ADE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

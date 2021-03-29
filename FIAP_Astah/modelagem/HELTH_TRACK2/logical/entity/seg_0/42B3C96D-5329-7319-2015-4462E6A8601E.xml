@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42B3C96D-5329-7319-2015-4462E6A8601E" name="T_HT_CONTATO_EMAIL">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:03:01 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>CTO_EML</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contato" id="7CB3BDCB-9772-EE7D-B994-18F0EF508A80">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 20:29:45 UTC</createdTime>
+<generatorID>40B2194B-5937-BB9D-D4E5-1B9966201810</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<referedAttribute>D7705A35-1B26-A887-63D8-51EEE9B97191</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_email" id="9F92F1EE-06A3-B497-6FA9-AA44E10DA7A4">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 20:30:07 UTC</createdTime>
+<generatorID>CFAE0B1A-EE04-9485-023A-918AF3758DA0</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<referedAttribute>C29BC5FF-C78C-D274-8B56-A1015D9CE364</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="B89EFCEF-D5EE-9A74-6823-7A97AFE74646">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 20:40:25 UTC</createdTime>
+<generatorID>40B2194B-5937-BB9D-D4E5-1B9966201810</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<referedAttribute>C72F6EDE-6FEC-EA53-A9C3-7DAB739BBC51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CFD1EA21-2F48-427A-F686-80BB4EE8852D" name="T_HT_CONTATO_EMAIL PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 20:29:45 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CB3BDCB-9772-EE7D-B994-18F0EF508A80</attributeRef>
+<attributeRef>B89EFCEF-D5EE-9A74-6823-7A97AFE74646</attributeRef>
+<attributeRef>9F92F1EE-06A3-B497-6FA9-AA44E10DA7A4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

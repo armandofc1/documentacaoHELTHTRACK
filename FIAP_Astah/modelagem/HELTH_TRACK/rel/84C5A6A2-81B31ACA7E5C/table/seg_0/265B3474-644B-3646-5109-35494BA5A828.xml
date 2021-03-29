@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="265B3474-644B-3646-5109-35494BA5A828" name="T_HT_ENDERECO">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>025C5A94-FC9A-C30B-CABE-286AF6B21CCB</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_endereco" id="094FF86A-D716-9677-1F73-BBA67445892C">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>08A32F1A-4B3B-04B4-560E-08DD6B7EDB65</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_HT_TIPO_ENDERECO_cd_tipo_endereco" id="EC56DC3C-58B9-9026-7084-7203D2313D6D">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>1705E9E0-EB73-5E74-96ED-C0EDBB2BDB91</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BD36C21-6673-016C-ACE0-6DCAA0FB87AB" referredColumn="08199B41-5340-5A9A-FB75-7FA0345C277E"/>
+</associations>
+</Column>
+<Column name="T_HT_ESTADO_cd_estado" id="3C5D000D-1485-C67F-ECD7-960956900C55">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>2675F20F-6C93-2AB2-68D9-49AF7ADED04A</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="910DFC1D-C397-6E83-DD07-27D390DAB065" referredColumn="DC392CF0-82FF-3BAC-9226-1F1FA84E159E"/>
+</associations>
+</Column>
+<Column name="ds_rua" id="8E12D9EC-6D95-3C66-49C2-1ABDC9DB834E">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>F31E704C-E0F6-0E5B-D749-FF9C338C6D55</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_numero" id="6E0939EA-8786-ACD4-E187-F7D9809C4DFF">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>72896D42-E4D6-CDE6-EF71-13A78C31AC97</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_caixa_postal" id="AECAADEA-B223-07DE-EEC8-CD315AA35089">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>CEC25136-5315-41C4-E15F-33A2A9F0D53C</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_bairro" id="71968B89-9813-BFB9-F370-3D6125FE08A4">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>2228EC31-F969-0761-4C1E-ADB4CB771CC1</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_cidade" id="6E251026-60FA-79EB-5CEF-A425892DB238">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>04193642-ABF9-7639-0DBF-C33C04BCAEFC</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_cep" id="9EC4E898-C998-31AC-F094-F132AEBA1836">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>DA57BF45-EBBB-CBAA-D933-0B3997EA14B9</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EA7B59CE-6F25-6B13-CFB8-2025857DFF86" name="T_HT_ENDERECO_PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>1890B07A-8F99-D840-49ED-5564975BEFBB</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="094FF86A-D716-9677-1F73-BBA67445892C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9246F95E-E6A4-9BFA-0AEC-B83CC32B5494" name="T_TIPO_ENDERECO_FK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>65AC20BF-BDA4-26D9-75DE-5EE6BD125D08</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC56DC3C-58B9-9026-7084-7203D2313D6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49ECC26F-04AC-949B-ADDF-DD1E56A7EE07" name="T_ENDERECO_ESTADO_FK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>CA063A53-FFB7-0650-4DC5-67840042DD71</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C5D000D-1485-C67F-ECD7-960956900C55"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

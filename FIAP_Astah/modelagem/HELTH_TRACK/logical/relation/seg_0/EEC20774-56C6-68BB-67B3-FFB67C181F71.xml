@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_21" directorySegmentName="seg_0" id="EEC20774-56C6-68BB-67B3-FFB67C181F71">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 20:43:45 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<sourcePk>545503CD-79F5-60DF-A651-55DF430EAF4D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2F4679F8-3358-B021-9057-049D301B239E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A99F0B51-2738-FA41-5F37-B23C717181ED</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

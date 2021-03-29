@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DE5C202-3066-F35F-FB00-74B427FCD6C4" name="T_HT_RELEMBRAR_SENHA">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:32:05 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="D7FAD2B0-5E9B-C695-EE97-DD0AC29715F7">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 20:38:59 UTC</createdTime>
+<generatorID>82A6B477-D70D-D483-2592-AE24C075821C</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>446BB506-FC3D-D120-FC3A-2056F9EA57DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_email" id="055A2119-D00B-6C29-9007-A58FEB85E395">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:32:10 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_senha_enviado" id="5233C6FF-E011-F795-63F8-7DC331524770">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:33:03 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32D28177-CEAD-7D4B-1F63-DFF0BE336145" name="T_HT_RELEMBRAR_SENHA PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 20:36:32 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

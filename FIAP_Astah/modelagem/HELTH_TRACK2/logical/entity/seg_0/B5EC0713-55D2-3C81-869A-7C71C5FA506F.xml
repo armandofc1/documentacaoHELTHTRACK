@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B5EC0713-55D2-3C81-869A-7C71C5FA506F" name="T_HT_RELEMBRAR_SENHA">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 22:50:34 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>RLS</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_usuario" id="60A5DE9C-5F98-2209-063B-8065259FD783">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 22:51:37 UTC</createdTime>
+<generatorID>A91FD759-A4C2-5FA5-103F-8868E55008B4</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>446BB506-FC3D-D120-FC3A-2056F9EA57DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<preferredAbbreviation>cd_us</preferredAbbreviation>
+</Attribute>
+<Attribute name="dm_email" id="34907F5A-7C7A-5671-0B31-BC3EC0C3BBB7">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 22:50:50 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_envio" id="EEE7F7B6-D304-3324-86AD-F71346B085A5">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 22:51:04 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F74A99FE-2D3C-51FA-6499-852A8E0E6DAD" name="T_HT_TIPO_ATIVIDADE_FISICA">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>1FEBB67E-5D23-6D47-7122-237BBEC0BF27</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_tipo_atividade_fisica" id="ADC1EE18-F539-AA0E-C741-A087F20477E9">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>C031BA4E-0942-BB09-9434-965250D40076</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_tipo_atividade_fisica" id="50BB0E94-3FD2-24C9-AD0B-B2F03AFE8C50">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>84AE1B29-E6AE-A1EC-62E6-3B96C5919681</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E666597-30BE-3C46-AF91-319D0685F809" name="T_HT_TIPO_ATIVIDADE_FISICA_PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>D87B0021-1388-1B07-F828-7A37EAEC30AD</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADC1EE18-F539-AA0E-C741-A087F20477E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

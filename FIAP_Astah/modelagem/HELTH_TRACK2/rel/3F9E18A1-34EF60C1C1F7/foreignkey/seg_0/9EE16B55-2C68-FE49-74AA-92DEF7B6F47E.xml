@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9EE16B55-2C68-FE49-74AA-92DEF7B6F47E" containerWithKeyObject="64799C6A-6A2A-2953-F257-88F8266E4ADA" localFKIndex="E4966909-97EB-7B3A-CFB4-D2CAAED5B335" name="Relation_29">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>CD0B4FD1-EDED-BFF1-F6EE-B897968C8947</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<referredTableLongName>T_HT_MEDIDAS_CORPORAIS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B8490E50-60EE-1A81-892F-34A6D03BDCB0</referredTableID>
+<keyObject>E6D002E9-7E75-8DF3-B3DD-D0BDC8DCD3B5</keyObject>
+<referredKeyID>E6D002E9-7E75-8DF3-B3DD-D0BDC8DCD3B5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_medidas</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

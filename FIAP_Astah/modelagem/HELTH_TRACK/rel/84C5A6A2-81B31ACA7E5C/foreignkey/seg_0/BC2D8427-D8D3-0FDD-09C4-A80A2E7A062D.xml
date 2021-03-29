@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC2D8427-D8D3-0FDD-09C4-A80A2E7A062D" containerWithKeyObject="452FAF53-5E16-A87C-B8B7-32705DB3D34C" localFKIndex="E207CC37-793C-DC94-9F97-2800585FADA8" name="T_TIPO_EMAIL_FK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>FFD4E97C-CE1E-FB07-EA98-94E8C8238A80</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<referredTableLongName>T_HT_TIPO_EMAIL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A8395CA8-E9D5-A611-402E-691575D9322C</referredTableID>
+<keyObject>8F24C426-6C90-7C6B-8D36-64136143BB62</keyObject>
+<referredKeyID>8F24C426-6C90-7C6B-8D36-64136143BB62</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_email</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="906A7CAA-95E9-AB97-B1A0-7E9A6B72D761" name="T_HT_MENU">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:35:20 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>MN</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_menu" id="4EABE088-464B-BF23-3FEE-B0BAF42A5FFB">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:36:22 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<preferredAbbreviation>cd_mn</preferredAbbreviation>
+</Attribute>
+<Attribute name="nm_menu" id="68958719-FBF0-4D2D-29F9-E06689A55C32">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:36:39 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_caminho" id="6D7A5D37-7A8B-170B-9199-99FEDC6B98A8">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:37:02 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6F4D0EF7-641B-459C-B311-ACB975AA9A72" name="T_HT_MENU PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:36:38 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4EABE088-464B-BF23-3FEE-B0BAF42A5FFB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

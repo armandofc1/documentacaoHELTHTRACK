@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="32BEEF85-57E8-724F-16EB-6429696CA082" name="T_HT_ALIMENTACAO">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>37C1F3BF-71CA-E5EB-281A-68C358B48CA2</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_alimentacao" id="00C801F4-315F-FA4C-6246-36C31C5C844C">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>80AD3B32-3D14-B56D-5D51-BD4E9871A8C1</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_tipo_alimentacao" id="C75531C1-B205-F858-1C97-C31E848F79CC">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>BC13427D-D74F-531F-F4CD-B50CE4012129</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="866F7E38-044F-6AA5-9D6E-D41E90D21A82" referredColumn="F40F9670-A2C1-E033-ADA8-88C993C05264"/>
+</associations>
+</Column>
+<Column name="cd_usuario" id="155C5DB4-15D4-9635-5CAA-1E6C3EDFBB0C">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>9C48FBEB-1569-E297-5B54-97BF82F7F427</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA86873E-F3AA-9CE0-1CF0-93EC2EF0AC9B" referredColumn="FFD8DEE1-BF6C-F6F2-DE7C-10A53B8EEA1A"/>
+</associations>
+</Column>
+<Column name="nm_alimento" id="82D73113-F7F2-1ADE-DE90-FDBB04335BCD">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>851F16AD-1B05-F7A9-C7BC-720EC1D3B0A5</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<ownDataTypeParameters>150,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_alimento" id="C48AF77B-1A01-4F0C-9B43-0E740D8F8F74">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>6518B445-E7A9-EB91-2CC1-F7E978B3AF8A</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_calorias" id="3E2E0663-8AFE-B6ED-6122-2B7CEA146C0B">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>9C0531AC-D5DE-20DF-F337-E63C38E242ED</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_consumo" id="82C7ECB4-F8A1-D846-1D35-14D27C2F76D0">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>0C0E1AB1-83FE-30E0-1E8F-526A6945869A</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E404A8E0-E75F-DB3B-BC1C-5F3AA76F4B21" name="T_HT_ALIMENTACAO_PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>F70E0565-AD68-E6F0-65DE-B6D55FD751F7</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00C801F4-315F-FA4C-6246-36C31C5C844C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B31DB58D-FF86-D58B-49DB-46831AD1FD72" name="Relation_20">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>9233EB23-8AC2-8A33-2B01-B7B8DD4C6951</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="155C5DB4-15D4-9635-5CAA-1E6C3EDFBB0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB99922D-01D1-27C2-2D7A-F00C3CD8451C" name="Relation_5">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>4A62B6D2-7DF1-CA0F-2AC4-CE5C3BE275CD</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C75531C1-B205-F858-1C97-C31E848F79CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

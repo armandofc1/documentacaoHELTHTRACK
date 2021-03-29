@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="62C94ECE-7BBB-D42F-821C-4A69F319E0BC" name="T_HT_ATIVIDADE_FISICA">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>F33F46F9-2285-B5A7-6E66-39E0BAF75485</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_atividade_fisica" id="61A4B8C9-6A60-6855-4A89-2B293D4263D1">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>9C8BE1C3-95CA-01B6-DF8B-861E76DB9B9F</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_atividade_fisica" id="53A0961C-98ED-BEC6-9F37-2DFBA2D21818">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>F1160C84-7DEB-8811-2C1A-166A9F86AE15</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_atividade_fisica" id="EE296183-ADF9-F06C-1CB6-051140998860">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>AEC8E57D-2F4C-6D62-14FA-02365FB0A5FD</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_gasto_calorico" id="5156E622-C2FE-6471-0045-593B4350F350">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>4F2AD36D-C254-1D7B-545C-CC4B4240AAE6</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,6,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_realizada" id="02191D5D-FCDE-459E-D4CE-028F242E3F4A">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>E2D4A785-E634-456D-FCD6-D29E0EB20EF0</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_HT_TIPO_ATIVIDADE_FISICA_cd_tipo_atividade_fisica" id="4F43B7F5-963C-6481-F253-105441B02D93">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>3F54454B-9A49-DBB2-FCB4-35577843B85A</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5222AB6F-DD79-C215-D528-FE5C6685FCE0" referredColumn="014232F0-EF4F-38C5-DB48-28E0E8FC1430"/>
+</associations>
+</Column>
+<Column name="T_HT_USUARIO_cd_usuario" id="15E32F94-DC2C-4B79-DA5A-0AE7F979761E">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>B69FA689-0219-449A-6261-77250CF20111</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1B1E455-E9AD-2678-3E26-D562FBC5E21D" referredColumn="ECBC8858-7A5D-FB87-6A67-A385F86205CD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3545EC20-1A4F-4E8E-63E6-091AC36633CE" name="T_HT_ATIVIDADE_FISICA_PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>6C27A336-5CDA-7475-9FAF-0D15800DA7DC</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61A4B8C9-6A60-6855-4A89-2B293D4263D1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B9E3C69-19D7-944E-E682-BDCF1ED95CD2" name="T_ATIVIDADE_FIS_USUARIO_FK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>C361FEC9-A698-3898-8E86-05A719B28D10</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="15E32F94-DC2C-4B79-DA5A-0AE7F979761E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F4E8EA7-7203-4D9E-E83C-4853792548CC" name="T_ATIVIDADE_FISICA_TIPO_FK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>9B6DAA65-8D74-F7F0-2AFE-2CE9F5E9C4AC</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F43B7F5-963C-6481-F253-105441B02D93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

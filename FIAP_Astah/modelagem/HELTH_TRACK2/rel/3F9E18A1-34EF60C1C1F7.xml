@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="3F9E18A1-C2D4-9C36-50EC-34EF60C1C1F7" mainViewID="189BB7B5-4A0E-9A9B-61E9-15118E6618F5">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:14 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

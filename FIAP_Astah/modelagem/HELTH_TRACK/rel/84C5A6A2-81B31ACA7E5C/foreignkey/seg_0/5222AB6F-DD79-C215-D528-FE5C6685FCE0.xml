@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5222AB6F-DD79-C215-D528-FE5C6685FCE0" containerWithKeyObject="62C94ECE-7BBB-D42F-821C-4A69F319E0BC" localFKIndex="2F4E8EA7-7203-4D9E-E83C-4853792548CC" name="T_ATIVIDADE_FISICA_TIPO_FK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>9B6DAA65-8D74-F7F0-2AFE-2CE9F5E9C4AC</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<referredTableLongName>T_HT_TIPO_ATIVIDADE_FISICA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BF784444-2008-BCF7-84D3-82F21645CEE6</referredTableID>
+<keyObject>4988D258-F72A-F075-3BF3-344E98075FCA</keyObject>
+<referredKeyID>4988D258-F72A-F075-3BF3-344E98075FCA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cd_tipo_atividade_fisica</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="534B5457-0735-1FDC-7962-F5F842BF6F85" name="T_HT_ENDERECO_USUARIO">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>156268F3-3FFA-62AC-1684-CD5248E192E1</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_endereco" id="7E942B0E-9686-622A-DDCD-9322948FECD4">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>2AF3C1D5-F744-474B-09D0-B1F28FB4712A</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="53E2F325-D9E9-4CA0-2759-7505965F9C0B" referredColumn="BFAE5A06-9F98-88E6-5305-6FA12083AE66"/>
+</associations>
+</Column>
+<Column name="cd_usuario" id="3748359B-E4BC-B6BE-D5A7-73629AA67EF3">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>7A95DC7C-65CC-3B23-827F-4C7D4E2BE78B</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="77549AD0-C54C-418A-1802-FD9FC9BF279B" referredColumn="FFD8DEE1-BF6C-F6F2-DE7C-10A53B8EEA1A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2FC3769-0285-9E69-A6BC-00220A24F40B" name="T_HT_ENDERECO_USUARIO_PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>A2260B1A-B642-4123-27AF-F14EC52A9145</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E942B0E-9686-622A-DDCD-9322948FECD4"/>
+<colUsage columnID="3748359B-E4BC-B6BE-D5A7-73629AA67EF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CE20BA6-B33C-F827-3E80-B1A39ABDF4DF" name="Relation_11">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>87C67572-D7C0-20EB-43A3-3D0F04173834</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E942B0E-9686-622A-DDCD-9322948FECD4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EFC1E5AB-D314-E31A-DE67-6DA6FD6E055F" name="Relation_12">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>7D7E08EA-6FF4-5209-39E2-F34B232B0679</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3748359B-E4BC-B6BE-D5A7-73629AA67EF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

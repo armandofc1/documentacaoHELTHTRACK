@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F2054650-9BD7-A80A-E2C2-8F175A7528E6" mainViewID="684E69D2-1F4A-AF30-C311-E294AAAE67D5">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 18:39:13 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

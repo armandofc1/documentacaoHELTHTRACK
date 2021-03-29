@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8E77FB8C-42B7-1AA6-BF01-402E81474E0D" name="T_HT_CONTATO_TELEFONE">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>577F8C65-C19A-14F9-418C-E1B0C7BAA45B</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_HT_CONTATO_cd_contato" id="DB7CE1AE-B1C2-DF41-E818-E591110C9735">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>1F7C620E-3A24-0621-22E7-6F241DA06F74</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBD30399-8744-4BF8-00A5-05608F09041E" referredColumn="B42BDD97-B1CA-7980-D493-B3D31717470A"/>
+</associations>
+</Column>
+<Column name="T_HT_TELEFONE_cd_telefone" id="DB5C2587-8BE6-1417-E56C-7D25994523EB">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>89B5DA8C-7809-821F-3648-E84018F0AC56</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9AEAD88-D315-77F3-5238-93AE1876D646" referredColumn="83E76501-EB0E-0A35-2751-D6D2D1D49785"/>
+</associations>
+</Column>
+<Column name="T_HT_CONTATO_T_HT_USUARIO_cd_usuario" id="3948C016-4657-E3E1-0783-62AF9C4A7562">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>C6C6F13A-640E-3903-4F49-2690B9CA9763</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CBD30399-8744-4BF8-00A5-05608F09041E" referredColumn="6D7BD853-BADB-2C56-8AAE-934D7C270BFA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B421B527-8186-7E41-721A-2B9921359D69" name="T_HT_CONTATO_TELEFONE_PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>D8F12438-1772-139E-0B62-8B3C5DAEE6A8</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB7CE1AE-B1C2-DF41-E818-E591110C9735"/>
+<colUsage columnID="3948C016-4657-E3E1-0783-62AF9C4A7562"/>
+<colUsage columnID="DB5C2587-8BE6-1417-E56C-7D25994523EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8007FFD3-A371-E028-ED58-A3B4AD19F399" name="T_TELEFONE_FK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>0143AA03-5901-A178-82BC-C2270494B173</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB5C2587-8BE6-1417-E56C-7D25994523EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEC08AA4-8899-B5E7-5CF2-034EEACDAD9F" name="T_CONTATO_TELEFONE_FK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 21:33:47 UTC</createdTime>
+<generatorID>BEC8BDCA-980A-A2E3-7FCB-47AB2C98A2F1</generatorID>
+<ownerDesignName>HELTH_TRACK</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB7CE1AE-B1C2-DF41-E818-E591110C9735"/>
+<colUsage columnID="3948C016-4657-E3E1-0783-62AF9C4A7562"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

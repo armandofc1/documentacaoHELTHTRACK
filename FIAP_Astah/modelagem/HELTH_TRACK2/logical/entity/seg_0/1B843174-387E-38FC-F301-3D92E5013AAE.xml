@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B843174-387E-38FC-F301-3D92E5013AAE" name="T_HT_TIPO_EMAIL">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:02:24 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>TP_EML</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_tipo_email" id="3E0B9A6B-D571-B3DA-B38A-4EF4E7B79E97">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:02:32 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<preferredAbbreviation>cd_tpeml</preferredAbbreviation>
+</Attribute>
+<Attribute name="nm_tipo_email" id="14C7A19D-5089-3594-4EA1-635053DE0421">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:02:39 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="69B6682E-1EC5-4784-C8D6-98BA7574BC54" name="T_HT_TIPO_EMAIL PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:02:38 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3E0B9A6B-D571-B3DA-B38A-4EF4E7B79E97</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

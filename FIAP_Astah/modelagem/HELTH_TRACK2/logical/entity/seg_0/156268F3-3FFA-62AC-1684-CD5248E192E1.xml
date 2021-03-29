@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="156268F3-3FFA-62AC-1684-CD5248E192E1" name="T_HT_ENDERECO_USUARIO">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 19:05:22 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>END_USU</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_endereco" id="2AF3C1D5-F744-474B-09D0-B1F28FB4712A">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 20:34:40 UTC</createdTime>
+<generatorID>87C67572-D7C0-20EB-43A3-3D0F04173834</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<referedAttribute>08A32F1A-4B3B-04B4-560E-08DD6B7EDB65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="7A95DC7C-65CC-3B23-827F-4C7D4E2BE78B">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 20:35:01 UTC</createdTime>
+<generatorID>7D7E08EA-6FF4-5209-39E2-F34B232B0679</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="true"/>
+</engineerTo>
+<referedAttribute>446BB506-FC3D-D120-FC3A-2056F9EA57DD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A2260B1A-B642-4123-27AF-F14EC52A9145" name="T_HT_ENDERECO_USUARIO PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 20:34:43 UTC</createdTime>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="84C5A6A2-6403-9CDA-54FC-81B31ACA7E5C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2AF3C1D5-F744-474B-09D0-B1F28FB4712A</attributeRef>
+<attributeRef>7A95DC7C-65CC-3B23-827F-4C7D4E2BE78B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

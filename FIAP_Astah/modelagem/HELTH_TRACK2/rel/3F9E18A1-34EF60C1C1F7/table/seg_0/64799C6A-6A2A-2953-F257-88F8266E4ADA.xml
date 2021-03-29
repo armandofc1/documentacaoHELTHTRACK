@@ -1,0 +1,170 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="64799C6A-6A2A-2953-F257-88F8266E4ADA" name="T_HT_EVOLUCAO">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>A99F0B51-2738-FA41-5F37-B23C717181ED</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_evolucao" id="4541759B-9A71-BC24-8A09-5E7AA0AC9DDA">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>B881FFC0-56D8-139C-71FC-16E98299788D</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_planejamento" id="B1031098-D3D2-41FA-2474-F092FF107D8A">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>758525D1-17D8-B274-C24E-A8BB27317452</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF759BC7-2F26-0118-C30F-386F2C7AA7BF" referredColumn="9978311C-1AC6-67DE-2BA2-AEC26ADD494D"/>
+</associations>
+</Column>
+<Column name="cd_peso" id="8D6E3E6E-75D9-FCA1-D71F-06E881E256F8">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>0AC2C842-68DC-C8BD-FAA9-15D764D1B1CC</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC0BE149-771B-045D-E78A-A33746B27D9B" referredColumn="CF78DE33-C5A6-1FAB-812F-C3012365BBE4"/>
+</associations>
+</Column>
+<Column name="cd_medidas" id="EF29EC17-8229-EECF-6307-9C2D3B75509F">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>9545A0D2-45BC-28C6-0888-D7521ED6E28A</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9EE16B55-2C68-FE49-74AA-92DEF7B6F47E" referredColumn="BC8D10C0-FC4A-D0E4-59E5-188950E516D3"/>
+</associations>
+</Column>
+<Column name="cd_pressao" id="0350B771-64C5-7290-7A8F-D8582598A17C">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>C3B54AB2-51FB-FB5B-F03B-801DF9E8D795</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6422971E-2AB0-A87C-0A77-3E56BAFF04AF" referredColumn="7FFEE9B7-EED0-39DB-5B98-C20260E1DDA1"/>
+</associations>
+</Column>
+<Column name="ds_foto" id="AA562431-CDA6-AF86-C898-354DF2AFE614">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>DDE143D9-3DA0-001D-882D-005AA1C549B1</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<ownDataTypeParameters>250,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_registro" id="F17C50B7-3BCD-53B4-2ED0-083B36D1A44D">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>74087DB0-7C1A-48EA-EC8D-9FE54EDA6238</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3DD471B7-C334-23C4-749C-3D2B0952D5AD" name="T_HT_EVOLUCAO_PK">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>31B85BFB-B95D-35ED-D924-206C58AD9817</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4541759B-9A71-BC24-8A09-5E7AA0AC9DDA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C64F399-408A-2DD6-495F-A2446EDC1AE1" name="Relation_21">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>EEC20774-56C6-68BB-67B3-FFB67C181F71</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1031098-D3D2-41FA-2474-F092FF107D8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="052A5C1E-1427-A8EF-7A39-2C434FFC8DE0" name="Relation_27">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>0B1DEB87-D1C6-70C2-A4AE-96D9EFAA1DB1</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D6E3E6E-75D9-FCA1-D71F-06E881E256F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9A411779-FB6D-1CFF-36A4-2454F23CA73E" name="Relation_28">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>C20260B6-3FA6-F667-1DAA-D55326478ECF</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0350B771-64C5-7290-7A8F-D8582598A17C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E4966909-97EB-7B3A-CFB4-D2CAAED5B335" name="Relation_29">
+<createdBy>afcosta</createdBy>
+<createdTime>2018-05-28 23:16:41 UTC</createdTime>
+<generatorID>CD0B4FD1-EDED-BFF1-F6EE-B897968C8947</generatorID>
+<ownerDesignName>HELTH_TRACK2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF29EC17-8229-EECF-6307-9C2D3B75509F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
